@@ -11,3 +11,90 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.main-div {
+  height: 100vh;
+  display: flex;
+  background: linear-gradient(to top left, #28b487, #7dd56f);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.center-div {
+  width: 25%;
+  height: 80vh;
+  background-color: white;
+  margin: auto;
+  border-radius: 20px;
+  box-shadow: 5px 5px 25px -5px rgba(0, 0, 0, 0.5);
+}
+.center-div > h1 {
+  background-color: #28b487;
+  color: white;
+  
+  margin-bottom: 10px ;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+
+}
+.center-div > input {
+  border: none;
+  border-bottom: 2px solid #28b487;
+  text-align: center;
+
+  font-size: 20px;
+  font-weight: 500;
+  height: 30px;
+  top: 10px;
+  width: 60%;
+  outline: none;
+}
+.center-div > button {
+  min-height: 45px;
+  width:45px;
+  border-radius: 50%;
+  background-color: #28b487;
+  color: white;
+  margin-left: 10px;
+  border: none;
+  font-size: 40px;
+}
+button:hover{
+  background-color: #7dd56f;
+}
+ol {
+  margin-top: 30px;
+}
+ol li {
+  padding-left: 0px;
+  text-align: left;
+  font-size: 20px;
+  font-weight: 500;
+  min-height: 40px;
+  display: flex;
+  align-items: center ;
+  color: gray;
+  text-transform: capitalize;
+}
+.todo-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+}
+.todo-list > button {
+  display: flex;
+  width: 20px;
+  height: 20px;
+  justify-content: center;
+  align-items: center;
+  margin: 0 15px 0 35px;
+  /* background-color:#28b487; */
+  border-radius: 50%;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+
+}
+
+button :hover {
+  background-color: crimson;
+}
